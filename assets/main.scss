@@ -10,7 +10,7 @@
 
 
 body {
-	background-color: #ded1c1;
+	background-image: url("background.jpg");
 }
 
 header {
@@ -74,6 +74,7 @@ main {
 		justify-content: space-evenly;
 
 		li {
+			border-radius: 25px;
 			width: 250px;
 			height: 350px;
 			justify-self: center;
@@ -82,9 +83,11 @@ main {
 			.img {
 				height: 80%;
 				background-color: #CCCCCC;
+				border-radius: 25px 25px 0 0;
 			}
 
 			.caption {
+				border-radius: 0 0 25px 25px;
 				background-color: #DDDDDD;
 				height: 20%;
 			}

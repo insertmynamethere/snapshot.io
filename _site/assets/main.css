@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background-color: #ded1c1; }
+  background-image: url("background.jpg"); }
 
 header {
   position: relative;
@@ -52,6 +52,7 @@ main ul {
   flex-flow: row wrap;
   justify-content: space-evenly; }
   main ul li {
+    border-radius: 25px;
     width: 250px;
     height: 350px;
     justify-self: center;
@@ -59,8 +60,10 @@ main ul {
     margin: 5px; }
     main ul li .img {
       height: 80%;
-      background-color: #CCCCCC; }
+      background-color: #CCCCCC;
+      border-radius: 25px 25px 0 0; }
     main ul li .caption {
+      border-radius: 0 0 25px 25px;
       background-color: #DDDDDD;
       height: 20%; }
     main ul li:empty {
