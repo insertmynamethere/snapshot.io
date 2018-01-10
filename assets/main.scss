@@ -1,0 +1,98 @@
+---
+---
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ded1c1;
+}
+
+header {
+	position: relative;
+	height: 75px;
+	background: linear-gradient(to bottom right, #9b6954, #a8715a);
+	h1 {
+     	position: absolute;
+     	top: 50%;
+     	transform: translateY(-50%);
+		display: inline-block;
+		color: white;
+		margin-left: 15px;
+	}
+
+	.search {
+    	position: absolute;
+     	top: 50%;
+     	transform: translateY(-50%);
+    	left: 50%;
+    	transform: translateX(-50%);
+	}
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 20px;
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	}
+
+	li {
+	    float: right;
+	}
+
+	li a {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+	/* Change the link color to #111 (black) on hover */
+	li a:hover {
+	    background-color: #111;
+	}
+}
+
+main {
+	ul {
+		margin: 0 auto;
+		list-style-type: none;
+		display: grid;
+		grid-template-columns: repeat(6, minmax(200px, 400px));
+		grid-auto-rows: 250px;
+
+		li {
+			width: 190px;
+			height: 240px;
+			justify-self: center;
+			align-self: center;
+			padding: 5px;
+			.img {
+				height: 80%;
+				background-color: #CCCCCC;
+			}
+
+			.caption {
+				background-color: #DDDDDD;
+				height: 20%;
+			}
+		}
+	}
+}
+
+footer {
+	height: 50px;
+	background-color: #D4BF9F;
+	h6 {
+		margin: auto;
+	}
+}
