@@ -91,14 +91,14 @@ header {
   position: fixed;
   height: 75px;
   width: 100%;
-  background: linear-gradient(to bottom right, #9b6954, #a8715a); }
+  background-color: white; }
   header h1 {
     font-size: 300%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     display: inline-block;
-    color: white;
+    color: #CCCCCC;
     margin-left: 15px; }
   header .search {
     width: 40%;
@@ -114,7 +114,7 @@ header {
     height: 35px;
     text-align: center;
     background: transparent;
-    background-color: #FFFFFF;
+    background-color: #CCCCCC;
     border-radius: 100px; }
   header .searchfield:focus {
     outline: 0; }
@@ -149,7 +149,7 @@ header {
       position: relative;
       top: 50%;
       transform: translateY(-50%);
-      color: white;
+      color: #CCCCCC;
       text-align: center;
       margin: 0 15px; }
     header nav a:hover {
