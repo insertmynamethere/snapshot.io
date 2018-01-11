@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'offside';
   letter-spacing: 3px; }
 
@@ -100,11 +101,31 @@ header {
     color: white;
     margin-left: 15px; }
   header .search {
+    width: 40%;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  header .searchfield {
+    border: 0;
+    width: 100%;
+    font-size: 15px;
+    height: 35px;
+    text-align: center;
+    background: transparent;
+    background-color: #FFFFFF;
+    border-radius: 100px; }
+  header .searchfield:focus {
+    outline: 0; }
+  header .searchfield::placeholder {
+    opacity: 1;
+    transition: opacity 0.2s ease; }
+  header .searchfield:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.2s ease; }
+  header .searchfield::-webkit-search-cancel-button {
+    display: none; }
   header nav {
     display: inline-block;
     position: absolute;
@@ -135,7 +156,7 @@ header {
       background-color: #111111; }
 
 main {
-  padding-top: 75px; }
+  padding-top: 85px; }
   main ul {
     margin: 0 auto;
     list-style: none;
@@ -147,17 +168,17 @@ main {
       height: 350px;
       justify-self: center;
       align-self: center;
-      margin: 13px;
+      margin: 10px;
       background-color: white;
       box-shadow: 1px 1px 5px #aaaaaa;
       border-radius: 6px; }
+      main ul li:hover {
+        box-shadow: 2px 2px 15px #333333; }
       main ul li .img {
         margin: 15px auto 0 auto;
         width: 245px;
         height: 245px;
-        background-color: #CCCCCC;
-        border-style: inset;
-        border-radius: 6px; }
+        background-color: #CCCCCC; }
         main ul li .img img {
           height: 100%;
           width: 100%; }
