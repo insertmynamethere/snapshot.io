@@ -4,15 +4,13 @@
 <head>
   <meta charset="utf-8">
 
-  <title>QuickClips</title>
+  <title>Snapshot</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Your go to website to find your new favorite barber">
+  <meta name="description" content="Your go-to website to find your new favorite barber">
   <meta name="author" content="SitePoint">
-  <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Offside" rel="stylesheet">
   <link rel="stylesheet" href="assets/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="assets/style.js"></script>
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -21,7 +19,7 @@
 
 <body>
 	<header>
-		<h1>SNAPSHOT</h1>
+		<a href="index.html"><h1>SNAPSHOT</h1></a>
 		   <div class="search">
 		    <form action="/action_page.php">
 		      <input type="text" placeholder="Search.." name="search">
@@ -30,25 +28,46 @@
 		    </div>
 		<nav>
 			<ul>
-			  <a href="#news"><li>Sign Up</li></a>
-			  <a href="#contact"><li>Login</li></a>
-			  <a href="#about"><li>About</li></a>
+			  <a href="signup.html"><li>Sign Up</li></a>
+			  <a href="login.html"><li>Login</li></a>
+			  <a href="about.html"><li>About</li></a>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
+<!-- Trigger/Open The Modal -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
 		<ul>
 			<li><div class="img">
 				<img src="assets/tempAva.jpg">
 				</div>
 				<div class="caption_box">
 					<p>words</p>
-					<div class="icon"><div class="button"></div></div>
+					<div id="myBtn" class="icon"><div class="button"></div></div>
 				</div>
 			</li>
 
-			<li><div class="img">
+<!-- 			<li><div class="img">
 				<img src="assets/tempAva.jpg">
 				</div>
 				<div class="caption_box">
@@ -181,7 +200,7 @@
 					<p>words</p>
 					<div class="icon"><div class="button"></div></div>
 				</div>
-			</li>
+			</li> -->
 		    <li></li>
 		    <li></li>
 		    <li></li>
@@ -191,7 +210,9 @@
 	</main>
 
 	<footer>
-		<h6>About</h6>
 	</footer>
+	 <script src="assets/style.js"></script>
 </body>
+
+
 </html>

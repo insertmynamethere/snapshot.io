@@ -133,6 +133,8 @@ header {
       margin: 0 15px; }
     header nav a:hover {
       background-color: #111111; }
+    header nav a.active {
+      background-color: #111111; }
 
 main {
   padding-top: 75px; }

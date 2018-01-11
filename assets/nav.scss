@@ -131,6 +131,7 @@ header {
 			position: relative;
 		    height: 100%;
 		    text-decoration: none;
+
 		}
 
 		a li {
@@ -145,6 +146,10 @@ header {
 		/* Change the link color to #111 (black) on hover */
 		a:hover {
 		    background-color: #111111;
+		}
+
+		a.active {
+			background-color: #111111;
 		}
 	}
 }
