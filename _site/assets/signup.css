@@ -166,7 +166,7 @@ main {
           width: 100%; }
       main ul li .caption_box {
         position: relative;
-        margin: 0 auto;
+        margin: 10px auto;
         width: 87%;
         height: 20%; }
         main ul li .caption_box p {

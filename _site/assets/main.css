@@ -202,12 +202,17 @@ main {
           width: 100%; }
       main ul li .caption_box {
         position: relative;
-        margin: 0 auto;
-        width: 87%;
+        margin: 10px auto;
+        width: 80%;
         height: 20%; }
-        main ul li .caption_box p {
+        main ul li .caption_box .description_box {
+          margin: 0 auto;
           display: inline-block;
           width: 80%; }
+          main ul li .caption_box .description_box .description {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); }
         main ul li .caption_box .icon {
           display: inline-block;
           float: right;

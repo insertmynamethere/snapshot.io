@@ -197,7 +197,7 @@ header {
 		    background-color: #cccccc;
 		}
 
-		a:hover li {
+		a:hover li{
 			color: white;
 		    background-color: #cccccc;
 		}
@@ -243,13 +243,20 @@ main {
 
 			.caption_box {
 				position: relative;
-				margin: 0 auto;
-				width: 87%;
+				margin: 10px auto;
+				width: 80%;
 				height: 20%;
 
-				p {
+				.description_box {
+					margin: 0 auto;
 					display: inline-block;
 					width: 80%;
+
+					.description {
+						position: absolute;
+					    top: 50%;
+					    transform: translateY(-50%);
+					}
 				}
 
 				.icon {
