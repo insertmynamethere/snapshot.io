@@ -111,6 +111,7 @@ header {
 	height: 75px;
 	width: 100%;
 	background-color: white;
+	box-shadow: 1px 1px 10px #aaaaaa;
 
 	h1 {
 		font-size: 300%;
@@ -120,6 +121,7 @@ header {
 		display: inline-block;
 		color: #CCCCCC;
 		margin-left: 15px;
+		text-shadow: -1px 2px 1px #737272, -2px 4px 0px #767474, -4px 3px 10px #787777;
 	}
 
 	.search {
@@ -140,6 +142,7 @@ header {
 	 background: transparent;
 	 background-color: #CCCCCC;
 	 border-radius: 100px;
+	 box-shadow: 1px 1px 2px #aaaaaa;
 	}
 
 	.searchfield:focus {
